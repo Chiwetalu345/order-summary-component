@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+  padding: 20px 0px;
+  font-size: 16px;
+}
+
+.card {
+  margin: 0 auto;
+  width: 25%;
+  max-width: 500px;
+  min-width: 300px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.image{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+.class-summary {
+  padding: 20px;
+}
+
+h1,
+p {
+  text-align: center;
+  
+}
+
+h1 {
+  font-weight: 900;
+}
+
+p{
+    font-weight: 500;
+    margin: 5px 0;
+}
+
+.class-summary p{
+    color: gray;
+}
+
+.container{
+    width: 250px;
+    height: 50px;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.left,.right,.middle{
+    display: inline-block;
+    vertical-align: middle;
+   
+}
+
+.left{
+    width: 40px;
+    text-align: left;
+}
+.right{
+    width: 50px;
+    text-align: right;
+   /* transform: translate(0, -50%);*/
+}
+.middle{
+    width:140px;
+  /*  transform: translate(0, -50%);*/
+}
+
+button{
+    font-family: "Inter", sans-serif;
+    font-family: "Red Hat Display", sans-serif;
+    display: block;
+    width: 80%;
+    margin: 10px auto 0 auto;
+    padding: 12px 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+
+.cancel{
+    color: gray;
+    background-color: transparent;
+}
