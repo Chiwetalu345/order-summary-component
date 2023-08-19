@@ -9,12 +9,13 @@ body {
 
 .card {
   margin: 0 auto;
-  width: 28%;
-  max-width: 500px;
-  min-width: 300px;
+  width: 30%;
+  max-width: 50%;
+  min-width: 320px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   vertical-align: middle;
+  height: 80%;
 }
 .image{
     border-top-left-radius: 10px;
@@ -32,7 +33,9 @@ p {
 }
 
 h1 {
+  font-size: 32px;
   font-weight: 900;
+  color: #202f56;
 }
 
 p{
@@ -44,6 +47,11 @@ p{
     color: gray;
 }
 
+.description{
+  padding: 0 20px;
+  line-height: 1.5;
+}
+
 .container{
     width: 250px;
     height: 50px;
@@ -51,8 +59,8 @@ p{
     background-color: hsl(225, 100%, 98%);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 
